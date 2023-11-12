@@ -82,6 +82,26 @@ img{
     padding:10px;
 }
 
+/* Dots */
+
+#dots{
+    display: flex;
+    justify-content: space-around;
+    text-align: center ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dotOne,.dotTwo,.dotThree{
+    width:25px;
+    height:25px;
+    background-color: black;
+    color:white;
+    border-radius: 50% 50%;
+
+}
+
+
 
 /* Footer */
 
