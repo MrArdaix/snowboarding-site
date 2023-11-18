@@ -87,9 +87,7 @@ img{
 #dots{
     display: flex;
     justify-content: space-around;
-    text-align: center ;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    text-align: center;
 }
 
 .dotOne,.dotTwo,.dotThree{
@@ -100,6 +98,9 @@ img{
     border-radius: 50% 50%;
 
 }
+
+
+/* Select section */
 
 
 
