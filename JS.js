@@ -1,5 +1,5 @@
 const select = document.querySelector("select");
-const response = document.querySelector("response");
+const response = document.querySelector("#response");
 
 select.addEventListener("change", setChoice);
 
@@ -8,11 +8,11 @@ function setChoice(){
 
     if (choice === "snowboarding"){
         response.textContent = 
-        "Snowboarding is harder to learn but easier to master. Excellent choice!"
-    } else if (choice == "skiing"){
+        "Snowboarding is harder to learn but easier to master. Excellent choice!";
+    } else if (choice === "skiing"){
         response.textContent =
-        "Skiing is easier to learn but harder to master. Wise choice!"
-    } else{
+        "Skiing is easier to learn but harder to master. Wise choice!";
+    } else {
         response.textContent ="";
     }
 }
